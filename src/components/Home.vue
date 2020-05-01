@@ -108,11 +108,10 @@ export default {
         },
         {
           authName: '权限管理',
-          path: 'rights',
           id: 103,
           children: [
             { path: 'roles', authName: '角色列表' },
-            { path: '', authName: '权限列表' }
+            { path: 'rights', authName: '权限列表' }
           ]
         },
         {
