@@ -116,12 +116,12 @@ export default {
         },
         {
           authName: '商品管理',
-          path: 'goods',
           id: 101,
+          path: 'goods',
           children: [
-            { authName: '商品列表' },
-            { authName: '分类参数' },
-            { authName: '商品分类' }
+            { path: 'goods', authName: '商品列表' },
+            { path: 'params', authName: '分类参数' },
+            { path: 'categories', authName: '商品分类' }
           ]
         },
         {
