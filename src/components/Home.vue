@@ -126,9 +126,11 @@ export default {
         },
         {
           authName: '订单管理',
-          path: 'orders',
           id: 102,
-          children: [{ authName: '角色列表' }, { authName: '权限列表' }]
+          children: [
+            { authName: '角色列表' },
+            { path: 'orders', authName: '权限列表' }
+          ]
         },
         {
           authName: '数据统计',
