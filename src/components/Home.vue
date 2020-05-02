@@ -127,16 +127,12 @@ export default {
         {
           authName: '订单管理',
           id: 102,
-          children: [
-            { authName: '角色列表' },
-            { path: 'orders', authName: '权限列表' }
-          ]
+          children: [{ path: 'orders', authName: '订单列表' }]
         },
         {
           authName: '数据统计',
           id: 145,
-          path: 'reports',
-          children: [{ authName: '角色列表' }, { authName: '权限列表' }]
+          children: [{ path: 'reports', authName: '数据报表' }]
         }
       ]
     },
